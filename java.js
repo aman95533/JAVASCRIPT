@@ -170,3 +170,25 @@ function validationForm(){
         return false;
     }
 }
+
+// function validateForm(){
+// var y=document.forms["myForm"]["call"].value;
+
+//     if(y.length!=10){
+//         alert("enter 10 digit mobile number");
+//         return false;
+//     }
+//     if(!y.match(/^[0-9]+{10}$/)){
+//         alert("only digits,please");
+//         return false;
+//     }
+// }
+
+function validateForm(){
+    var x=document.forms["myForm"]["email"].value;
+    var atpos=x.indexof("@");
+    var dotpos=x.lastindexof(".");
+    if(atpos<1//dotpos<atpos+2//dotpos+2>=x.length){
+        alert("Not a valid e-mail address");
+        return false;
+    }
