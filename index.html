@@ -28,9 +28,15 @@
         <!-- <form name="myForm" submit="return validationForm()" method="post">
             Mobile: <input type="text" name="mobile">
             <input type="submit" value="Submit"> -->
-    <form name="myForm" submit="return validationForm()" method="post">
+    <!-- <form name="myForm" submit="return validationForm()" method="post">
         Email: <input type="text" name="email">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit"> -->
+
+    <form name="alertform">
+        Enter your name:
+        <input type="text" name="your name">
+        <input type="button" value="Go" onclick="window.alert('Hello ' + document.alertform.yourname.value)">
+    </form>
     <script src="./java.js"></script>
 </body>
 </html>

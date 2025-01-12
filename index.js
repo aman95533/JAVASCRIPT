@@ -163,13 +163,13 @@
 // document.write("You will be redirected to main page in 10 sec.");
 // setTimeout('Redirect()',10000);
 
-function validationForm(){
-    var x=document.forms["myForm"]["fname"].value;
-    if(x==null||x==""){
-        alert("First name must be filled out");
-        return false;
-    }
-}
+// function validationForm(){
+//     var x=document.forms["myForm"]["fname"].value;
+//     if(x==null||x==""){
+//         alert("First name must be filled out");
+//         return false;
+//     }
+// }
 
 // function validateForm(){
 // var y=document.forms["myForm"]["call"].value;
@@ -184,11 +184,13 @@ function validationForm(){
 //     }
 // }
 
-function validateForm(){
-    var x=document.forms["myForm"]["email"].value;
-    var atpos=x.indexof("@");
-    var dotpos=x.lastindexof(".");
-    if(atpos<1//dotpos<atpos+2//dotpos+2>=x.length){
-        alert("Not a valid e-mail address");
-        return false;
-    }
+// function validateForm(){
+//     var x=document.forms["myForm"]["email"].value;
+//     var atpos=x.indexof("@");
+//     var dotpos=x.lastindexof(".");
+//     if(atpos<1//dotpos<atpos+2//dotpos+2>=x.length){
+//         alert("Not a valid e-mail address");
+//         return false;
+//     }
+
+
